@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: hsl(33, 100%, 20%);
+    font-size: 2em;
+}
+section{
+    width: 50%;
+    height: 800px;
+    text-align: center;
+    background-color: hsl(61, 100%, 25%);
+    color: white;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 10px;
+
+    
+}
+h1{
+    color: black;
+    font-size: 2em;
+    padding-top: 20px;
+}
+h2{
+    font-size: 1em;
+}
+#input{
+    width: 40%;
+    height: 35px;
+    color: black;
+    border: 1px solid black;
+    font-size: 0.5em;
+    text-align: center;
+}
+button{
+    width: 25%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+ul li.completed{
+    text-decoration: line-through;
+}
+button:hover{
+    background-color: rgb(218, 99, 56);;
+}
+button:active{
+    background-color: rgb(226, 121, 82);;
+}
+.press{
+    background-color: red;
+}
+.clearList{
+    background-color: red;
+    width: 40%;
+}
+@media screen and (max-width: 865px){
+    section{
+        width: 100%;
+    }
+    body{
+        background-color:hsl(61, 100%, 15%)
+    }
+}
