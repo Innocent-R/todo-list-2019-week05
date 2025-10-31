@@ -1,5 +1,5 @@
 # My To-do List Project
-My To-do List project is awesome. It containss an input text box, click to add button, clear button and clear completed list. The used can made a to-do list and be able to mark the completed ones or clean the list and start again.
+My To-Do List project is an engaging and user-friendly application. It features an input text box, an 'Add' button, a 'Clear' button, and an option to clear completed tasks. Users can create a to-do list, mark tasks as completed, or clear the list entirely to start fresh
 
 **Tech used:** HTML, CSS, and JavaScript
 
